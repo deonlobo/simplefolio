@@ -29,14 +29,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
       ScrollReveal({ reset: false });
     </script>
-
+    <style type="text/css">
+       .dummy{
+         display:none;
+       }
+    </style>
     <!-- Remove this script once you setup your custom portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    
+
   </head>
 
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
@@ -100,12 +105,13 @@
 
     <!-- **** Projects Section **** -->
     <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
+      <div class="container" >
+        <div class="project-wrapper ">
           <h2 class="section-title dark-blue-text">
             Projects
           </h2>
-
+          
+         
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -136,6 +142,7 @@
           </div>
           <!-- /END Project -->
 
+          <div class="dummy"> <!-- DUMMY -->
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -266,6 +273,8 @@
             </div>
           </div>
           <!-- /END Project -->
+          </div> <!-- DUMMY CLOSE -->
+          <button onclick="myFunction()">Show More</button>
         </div>
       </div>
     </section>
@@ -351,5 +360,17 @@
       </div>
     </footer>
     <!-- /END Footer Section -->
+    <script>
+
+    function myFunction() {
+      var x = document.getElementsByClassName("dummy");
+      if (x[0].style.display === "none") {
+        x[0].style.display = "block";
+      } else {
+        x[0].style.display = "none";
+      }
+    }
+    </script>
+
   </body>
 </html>

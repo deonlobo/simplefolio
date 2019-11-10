@@ -40,6 +40,7 @@ export default function() {
   });
 
   /* Projects Section */
+
   ScrollReveal().reveal('.project-wrapper__text', {
     ...defaultProps,
     delay: 500,
