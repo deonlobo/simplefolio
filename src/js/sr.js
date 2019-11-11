@@ -46,11 +46,11 @@ export default function() {
     delay: 500,
     origin: window.innerWidth > 768 ? 'left' : 'bottom'
   });
-  ScrollReveal().reveal('.project-wrapper__image', {
+/*  ScrollReveal().reveal('.project-wrapper__image', {
     ...defaultProps,
     delay: 1000,
     origin: window.innerWidth > 768 ? 'right' : 'bottom'
-  });
+  });*/
 
   /* Contact Section */
   ScrollReveal().reveal('.contact-wrapper', {
