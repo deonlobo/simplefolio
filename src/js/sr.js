@@ -41,7 +41,7 @@ export default function() {
 
   /* Projects Section */
 
-  /*ScrollReveal().reveal('.project-wrapper__text', {
+/*  ScrollReveal().reveal('.project-wrapper__text', {
     ...defaultProps,
     delay: 500,
     origin: window.innerWidth > 768 ? 'left' : 'bottom'
