@@ -8,12 +8,12 @@ export default function() {
   };
 
   /* Section Title */
-  ScrollReveal().reveal('.section-title', {
+/*  ScrollReveal().reveal('.section-title', {
     ...defaultProps,
     delay: 300,
     distance: '0px',
     origin: 'bottom'
-  });
+  });*/
 
   /* Hero Section */
   ScrollReveal().reveal('.hero-title', {
@@ -41,11 +41,11 @@ export default function() {
 
   /* Projects Section */
 
-  ScrollReveal().reveal('.project-wrapper__text', {
+  /*ScrollReveal().reveal('.project-wrapper__text', {
     ...defaultProps,
     delay: 500,
     origin: window.innerWidth > 768 ? 'left' : 'bottom'
-  });
+  });*/
 /*  ScrollReveal().reveal('.project-wrapper__image', {
     ...defaultProps,
     delay: 1000,
