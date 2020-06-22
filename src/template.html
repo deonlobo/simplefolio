@@ -311,6 +311,60 @@
 <!-- **** End of Web Projects Section **** -->
    
       <hr>
+<!-- **** Data Science Projects Section ***********************************************************************************************************************************-->
+      <div class="container" >
+        <div class="project-wrapper" style="margin-bottom: 3rem;">
+            <h2 class="section-title dark-blue-text">
+              Data Science Projects
+            </h2>
+              <!-- Each .row is a project 0-->
+              <div class="row">
+                <div class="">
+                  <div class="project-wrapper__text">
+                    <h3 class="project-wrapper__text-title">Convolutional neural Networks</h3>
+                    <div>
+                      <p class="mb-4">
+                        A model trained to recognize cats and dogs using keras library of tenserflow.
+                        CNN is a class of deep neural networks, most commonly applied to analyzing visual imagery.
+                      </p>
+                    </div>
+                    <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/deonlobo/Deep-Learning/tree/master/Volume%201%20-%20Supervised%20Deep%20Learning/Part%202%20-%20Convolutional%20Neural%20Networks%20(CNN)">
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                
+              </div> 
+              <!-- /END Project 0-->
+
+            <div class="datascience"> <!-- DATA SCIENCE -->         
+              <!-- Each .row is a project 1-->
+              <div class="row">
+                <div class="">
+                  <div style="text-align:left;">
+                    <h3 class="project-wrapper__text-title">Deep Learning Projects</h3>
+                    <div>
+                      <p class="mb-4">
+                        In this course I learned topics such as Supervised Deep Learning (ANN,CNN,RNN) 
+                        and Unsupervised Deep Learning (SOM , Boltzmann Machines , Auto encoders) . 
+                      </p>
+                    </div>
+                    <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/deonlobo/Deep-Learning">
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project 1-->
+
+        
+            </div> <!-- DATA SCIENCE CLOSE -->
+          <h3><b><button id='datascience_btn' onclick="myFunction('datascience','datascience_btn')" class="cta-btn cta-btn--hero">Show More</button></b></h3>
+        </div>
+      </div>
+<!-- **** End of Data Science Projects Section **** -->
+
+      <hr>
       <!-- **** Android Projects Section **** -->
         <div class="container" >
         <div class="project-wrapper " style="margin-bottom: 3rem;">
@@ -684,10 +738,13 @@
     <!-- /END Footer Section -->
     <script>
       window.onload = function() {
-          var x = document.getElementsByClassName("android");
-          var y = document.getElementsByClassName("web");
-          x[0].style.display = "none";
-          y[0].style.display = "none";
+          var x1 = document.getElementsByClassName("android");
+          var x2 = document.getElementsByClassName("web");
+          var x3 = document.getElementsByClassName("datascience");
+          x1[0].style.display = "none";
+          x2[0].style.display = "none";
+          x3[0].style.display = "none";
+
       };
     function myFunction(catagory,b) {
 
