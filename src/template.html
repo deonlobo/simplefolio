@@ -31,14 +31,19 @@
     />
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- jquery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
       ScrollReveal({ reset: false });
+      //jquery script
+      $(document).ready(function(){
+        var width = $(window).width();
+        console.log(width);
+        if (width <= 480) {
+          $("#hideOnMobile").remove();
+        }
+      });
     </script>
-<!--     <style type="text/css">
-       .dummy{
-         display:none;
-       }
-    </style> -->
     <!-- Remove this script once you setup your custom portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
